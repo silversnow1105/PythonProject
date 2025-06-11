@@ -6,7 +6,7 @@ import os #operating system의 약자 운영체제, 시스템 제어 유용한 �
 from datetime import datetime #날짜와 시간 가져오기
 import requests #http 요청을 보내고 응답을 받는데 사용되는 라이브러리
 
-BASE_URL = "http://192.168.192.102:8000/" # FastAPI 서버가 실행될 주소
+BASE_URL = "your ip address" 실행될 주소
 
 def load_json(filename):
     if not os.path.exists(filename): #파일경로
